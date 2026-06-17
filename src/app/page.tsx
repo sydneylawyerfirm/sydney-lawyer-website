@@ -12,6 +12,9 @@ import {
   Globe,
   Gavel,
   Heart,
+  Briefcase,
+  AlertTriangle,
+  Building2,
 } from "lucide-react";
 import ConsultationForm from "@/components/ConsultationForm";
 
@@ -169,13 +172,46 @@ export default function HomePage() {
               </p>
             </Link>
             <Link
+              href="/employer-sponsorship"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-5 hover:shadow-lg transition-all hover:-translate-y-1"
+            >
+              <Briefcase size={24} className="mb-2" />
+              <h4 className="font-bold">Employer Sponsorship</h4>
+              <p className="text-sm text-white/80">
+                Subclass 482, 494 & 186 visas
+              </p>
+            </Link>
+          </div>
+
+          <div className="mt-4 grid md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            <Link
+              href="/tribunal-review"
+              className="bg-gradient-to-r from-amber-600 to-amber-700 text-white rounded-xl p-5 hover:shadow-lg transition-all hover:-translate-y-1"
+            >
+              <AlertTriangle size={24} className="mb-2" />
+              <h4 className="font-bold">Visa Refused → Tribunal</h4>
+              <p className="text-sm text-white/80">
+                Challenge the decision at the ART
+              </p>
+            </Link>
+            <Link
               href="/federal-court-appeal"
               className="bg-gradient-to-r from-red-700 to-red-800 text-white rounded-xl p-5 hover:shadow-lg transition-all hover:-translate-y-1"
             >
               <Gavel size={24} className="mb-2" />
               <h4 className="font-bold">Federal Court Appeal</h4>
               <p className="text-sm text-white/80">
-                Visa refused? Fight back in court
+                Tribunal rejected? Appeal in court
+              </p>
+            </Link>
+            <Link
+              href="/commercial-law"
+              className="bg-gradient-to-r from-slate-700 to-slate-800 text-white rounded-xl p-5 hover:shadow-lg transition-all hover:-translate-y-1"
+            >
+              <Building2 size={24} className="mb-2" />
+              <h4 className="font-bold">Commercial & Business Law</h4>
+              <p className="text-sm text-white/80">
+                Contracts, leases & retainers
               </p>
             </Link>
           </div>

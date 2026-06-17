@@ -93,10 +93,34 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/employer-sponsorship"
+                  className="hover:text-[#D4A843] transition-colors"
+                >
+                  Employer Sponsorship
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/tribunal-review"
+                  className="hover:text-[#D4A843] transition-colors"
+                >
+                  Visa Refused → Tribunal
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/federal-court-appeal"
                   className="hover:text-[#D4A843] transition-colors"
                 >
                   Federal Court Appeal
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/commercial-law"
+                  className="hover:text-[#D4A843] transition-colors"
+                >
+                  Commercial & Business Law
                 </Link>
               </li>
             </ul>

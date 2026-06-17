@@ -72,6 +72,12 @@ export default function Header() {
                     >
                       Property Law
                     </Link>
+                    <Link
+                      href="/commercial-law"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#8B6914]"
+                    >
+                      Commercial & Business Law
+                    </Link>
                     <hr className="my-1 mx-4" />
                     <Link
                       href="/partner-visa"
@@ -90,6 +96,19 @@ export default function Header() {
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#8B6914]"
                     >
                       Tourist Visa
+                    </Link>
+                    <Link
+                      href="/employer-sponsorship"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#8B6914]"
+                    >
+                      Employer Sponsorship
+                    </Link>
+                    <hr className="my-1 mx-4" />
+                    <Link
+                      href="/tribunal-review"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#8B6914]"
+                    >
+                      Visa Refused → Tribunal
                     </Link>
                     <Link
                       href="/federal-court-appeal"
@@ -151,7 +170,10 @@ export default function Header() {
             <Link href="/partner-visa" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Partner Visa</Link>
             <Link href="/working-holiday-visa" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Working Holiday Visa</Link>
             <Link href="/tourist-visa" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Tourist Visa</Link>
+            <Link href="/employer-sponsorship" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Employer Sponsorship</Link>
+            <Link href="/tribunal-review" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Visa Refused → Tribunal</Link>
             <Link href="/federal-court-appeal" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Federal Court Appeal</Link>
+            <Link href="/commercial-law" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Commercial & Business Law</Link>
             <Link href="/about" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>About</Link>
             <Link href="/contact" className="block text-gray-700 py-2" onClick={() => setMobileOpen(false)}>Contact</Link>
             <hr />
